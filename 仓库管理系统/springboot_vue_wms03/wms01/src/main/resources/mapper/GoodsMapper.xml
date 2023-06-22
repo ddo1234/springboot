@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.GoodsMapper">
+
+    <select id="page1" resultType="com.pojo.Goods">
+        select * from goods ${ew.customSqlSegment}
+    </select>
+    <select id="findLess" resultType="com.pojo.Goods">
+        select * from goods where count <![CDATA[<]]> 200
+    </select>
+    <select id="findType" resultType="String">
+        select name from goodstype
+    </select>
+
+    <select id="getCount" resultType="Integer">
+        select count(*) from goods where count <![CDATA[<]]> 200
+    </select>
+
+    <select id="findTotal" resultType="com.pojo.ResGoods">
+        select storage,sum(count) as sum from goods group by storage
+    </select>
+
+    <select id="findStorage" resultType="String">
+        select name from storage2
+    </select>
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Goods">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="storage" property="storage"/>
+        <result column="goodsType" property="goodstype"/>
+        <result column="count" property="count"/>
+        <result column="remark" property="remark"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, storage, goodsType, count, remark
+    </sql>
+
+</mapper>

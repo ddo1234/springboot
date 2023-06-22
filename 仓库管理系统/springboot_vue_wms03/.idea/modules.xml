@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../idea_project/springboot/springboot_04_02_thymeleaf/springboot_04_02_thymeleaf.iml" filepath="$PROJECT_DIR$/../idea_project/springboot/springboot_04_02_thymeleaf/springboot_04_02_thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../idea_project/springboot/springboot_07_01_security/springboot_07_01_security.iml" filepath="$PROJECT_DIR$/../idea_project/springboot/springboot_07_01_security/springboot_07_01_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot_vue_wms.iml" filepath="$PROJECT_DIR$/.idea/springboot_vue_wms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wms01/wms01.iml" filepath="$PROJECT_DIR$/wms01/wms01.iml" />
+    </modules>
+  </component>
+</project>

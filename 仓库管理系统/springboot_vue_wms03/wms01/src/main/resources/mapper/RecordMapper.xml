@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.RecordMapper">
+
+    <select id="RPage" resultType="com.pojo.RecordRes">
+        SELECT a.*,b.name goodsname,b.`storage`storagename,b.`goodsType` goodstypename,
+        (SELECT u.name FROM USER u WHERE u.id=a.user_id)username,
+        (SELECT u.name FROM USER u WHERE u.id=a.admin_id)adminname
+        FROM record a ,goods b
+        ${ew.customSqlSegment}
+    </select>
+
+    <select id="listGoodsType" resultType="com.pojo.Goodstype">
+        select * from goodstype
+    </select>
+
+    <select id="listStorage" resultType="com.pojo.Storage2">
+        select * from storage2
+    </select>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.pojo.Record">
+        <id column="id" property="id"/>
+        <result column="goods_id" property="goodsId"/>
+        <result column="user_id" property="userId"/>
+        <result column="admin_id" property="adminId"/>
+        <result column="count" property="count"/>
+        <result column="create_Time" property="createTime"/>
+        <result column="remark" property="remark"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, goods_id, user_id, admin_id, count, create_time, remark
+    </sql>
+
+</mapper>

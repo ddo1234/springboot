@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    /*overflow-x: hidden ;*/
+}
+
+/*.el-table__header-wrapper{*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+/*.el-main[data-v-47323bf2]{*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+.second {
+    position: relative;
+    left: -40px;
+    text-align: center;
+}
+
+.el-tag {
+    border-radius: 25px;
+}
+
+/* 行内间距*/
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+    border-bottom: 2px solid #EBEEF5;
+}
+
+.titleBlock {
+    color: #030303;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.el-header {
+    padding: 0;
+}
+
+/*.el-container.is-vertical{*/
+/*    margin-left: -1px;*/
+/*}*/
+.el-menu {
+    border: 0;
+}
+
+.el-menu-item.is-active {
+    color: rgb(190, 92, 47);
+}
+
+/*.el-table th.el-table__cell>.cell {*/
+/*    padding-left: 81px;*/
+/*}*/
+/*.el-table__body-wrapper{*/
+/*    padding-left: 72px;*/
+/*    position: relative;*/
+/*}*/
+/*.el-aside[data-v-47323bf2]{*/
+/*    height: 102vh;*/
+/*}*/
+.element::-webkit-scrollbar {
+    width: 0 !important
+}

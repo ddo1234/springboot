@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "629343",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "712257",
+      "name": "物品管理",
+      "font_class": "icon-goods",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "765262",
+      "name": "首页",
+      "font_class": "shouye1",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1320054",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "3161425",
+      "name": "管理员_管理员列表",
+      "font_class": "guanliyuan_guanliyuanliebiao",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4138820",
+      "name": "新增-表格",
+      "font_class": "xinzeng",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "4933439",
+      "name": "用户管理",
+      "font_class": "yonghuguanli1",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "5387772",
+      "name": "仓库_库存_o",
+      "font_class": "cangku_kucun_o",
+      "unicode": "eb51",
+      "unicode_decimal": 60241
+    },
+    {
+      "icon_id": "5961307",
+      "name": "货物堆",
+      "font_class": "huowudui",
+      "unicode": "ec54",
+      "unicode_decimal": 60500
+    },
+    {
+      "icon_id": "7339840",
+      "name": "用户管理",
+      "font_class": "yonghuguanli2",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "8094229",
+      "name": "重置",
+      "font_class": "zhongzhi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "10278115",
+      "name": "查询",
+      "font_class": "chaxun",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "29838978",
+      "name": "记录管理",
+      "font_class": "jiluguanli",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    }
+  ]
+}
